@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# IP Address Tracker
 
-Currently, two official plugins are available:
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This project is built for learning purposes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
 
-## Expanding the ESLint configuration
+![App Screenshot](/src/assets/desktop-design.jpg)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Author
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Frontend Mentor - [@ImmanuelJNR](https://www.frontendmentor.io/profile/ImmanuelJNR)
+- LinkedIn - [Elijah Emmanuel](https://www.linkedin.com/in/elijah-emmanuel-256bb1239/)
+- Twitter - [@Elijahemmanu](https://www.twitter.com/Elijahemmanu)
+## Built with
+- [React](https://reactjs.org/) - JS library
+- [TypeScript](https://www.typescriptlang.org/) - Language
+- [Styled Components](https://styled-components.com/) - For styles
+- [LeafletJS](https://leafletjs.com/)- For generating map
+
+
+
+
+## Features
+
+- Users can see their own IP address on the map on the initial page load
+- View the optimal layout for each page depending on their device's screen size
+- Search for any IP addresses or domains and see the key information and location
+
+
+
+## Documentation
+
+
+- The asset folder inside the src folder contains the images used for this project
+- Each component in this project comes with its own styling defined within the component file. This approach helps maintain encapsulation and modularity, making it easier to manage styles for individual components.
+- The map is directly rendered within the App.tsx file using the MapContainer, TileLayer, Marker, and Popup components provided by the react-leaflet library.
+- Global styles are written in index.css file.
+
+
+
+## Url
+- [https://immanueljnr.github.io/Ip-address-tracker/](https://immanueljnr.github.io/Ip-address-tracker/)
